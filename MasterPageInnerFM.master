@@ -1,0 +1,376 @@
+﻿<%@ Master Language="C#" CodeFile="MasterPageInnerFM.master.cs" Inherits="MasterPageInnerFM" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>USA SIM cards unlimited 3g data | Telaway</title>
+    <meta name="description" content="Get a prepaid USA SIM card with unlimited data and calls -just £59.99. No roaming fees! Bring your UK iPhone, Android or Blackberry to America with Telaway. UK delivery!" />
+    <meta name="keywords" content="American sim card uk phone, usa sim card, prepaid us sim card, cheap best usa sim card, usa data sim, use iphone in usa, use uk smartphone in usa, usa sim card unlimited data plan, prepaid usa data sim, buy a usa sim card in uk" />
+     
+     
+    <!-- Bootstrap core CSS -->
+    <link href="<%=ResolveClientUrl("~/")%>assets/css/bootstrap.css" rel="stylesheet" />
+    <!-- Style CSS -->
+    <link href="<%=ResolveClientUrl("~/")%>styleN.css?7" rel="stylesheet" type="text/css" />
+    <!-- Google Fonts -->
+    <link runat="server" href='https://fonts.googleapis.com/css?family=Lato:400,100,100italic,300,300italic,400italic,700,900'
+        rel='stylesheet' type='text/css' />
+    <!-- SLIDER REVOLUTION 4.x CSS SETTINGS -->
+    <link rel="stylesheet" type="text/css" href="<%=ResolveClientUrl("~/")%>rs-plugin/css/settings.css"
+        media="screen" />
+    <link href="css/reset.css" rel="stylesheet" type="text/css">
+    <link href="css/style2.css" rel="stylesheet" type="text/css">
+    <link href="css/styleBundle.css" rel="stylesheet" type="text/css">
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+	  <script src="~/assets/js/html5shiv.js"></script>
+	  <script src="~/assets/js/respond.min.js"></script>
+	<![endif]-->
+    <!-- Favicons -->
+    <link rel="shortcut icon" href="<%=ResolveClientUrl("~/")%>assets/img/ico/favicon.ico?1"
+        type="image/x-icon" />
+    <%--	<link  rel="apple-touch-icon" href="<%=ResolveClientUrl("~/")%>assets/ico/apple-touch-icon.png" />
+	<link  rel="apple-touch-icon" sizes="57x57" href="<%=ResolveClientUrl("~/")%>assets/ico/apple-touch-icon-57x57.png"/>
+	<link  rel="apple-touch-icon" sizes="72x72" href="<%=ResolveClientUrl("~/")%>assets/ico/apple-touch-icon-72x72.png"/>
+	<link  rel="apple-touch-icon" sizes="114x114" href="<%=ResolveClientUrl("~/")%>assets/ico/apple-touch-icon-114x114.png"/>
+	<link  rel="apple-touch-icon" sizes="144x144" href="<%=ResolveClientUrl("~/")%>assets/ico/apple-touch-icon-144x144.png"/>
+    --%>
+    <meta name="google-site-verification" content="9hi_XcegGdIzW5egcqZcyMaPBBTIqJg1vU_1mVoKH5Q" />
+
+    <%--<script src="<%=ResolveClientUrl("~/")%>js/jquery-1.7.2.min.js"></script>--%>
+    <script src="<%=ResolveClientUrl("~/")%>js/jquery-1.11.3.min.js"></script>
+
+    <%--    <script src="<%=ResolveClientUrl("~/")%>js/jquery-ui-1.10.3.custom.min.js" type="text/javascript"></script>
+    --%>
+
+    <script>
+        $(document).ready(function () {
+            $(document.body).css('padding-top', $('#topNav').height() + 10);
+            $(window).resize(function () {
+                $(document.body).css('padding-top', $('#topNav').height() + 10);
+            });
+        });
+    </script>
+
+</head>
+<%--data-spy="scroll"  data-target="aside" data-offset="20"--%>
+<body runat="server">
+    <!-- Google Tag Manager -->
+    <noscript>
+        <iframe src="//www.googletagmanager.com/ns.html?id=GTM-MNRR5G" height="0" width="0"
+            style="display: none; visibility: hidden"></iframe>
+    </noscript>
+
+    <script>(function (w, d, s, l, i) {
+    w[l] = w[l] || []; w[l].push({
+        'gtm.start':
+        new Date().getTime(), event: 'gtm.js'
+    }); var f = d.getElementsByTagName(s)[0],
+    j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+    '//www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+})(window, document, 'script', 'dataLayer', 'GTM-MNRR5G');</script>
+
+    <!-- End Google Tag Manager -->
+    <%--<script type="text/javascript" language="javascript"    >
+  $( document ).ready(function() {
+       
+       // set height of left link
+       var pageHeight = $('.main_container').height();
+      // alert(pageHeight);
+       $('.banner_sidebar').height(pageHeight + 80)
+    });
+  </script>--%>
+    <form id="form1" runat="server">
+
+        <asp:ScriptManager ID="ScriptManager1" EnablePageMethods="true" runat="server">
+        </asp:ScriptManager>
+        <asp:HiddenField Value="" runat="server" ID="HiddinHomeSiteURL" />
+        <div class="animationload">
+            <div id="intro">
+            </div>
+        </div>
+        <div class="smallanimationload" style="display: none;">
+            <div style="margin-left: 33%; padding-top: 73%; color: #002F65;">Loading</div>
+        </div>
+        <div class="wrapper">
+            <nav class="navbar-default navbar-fixed-top" id="topNav">
+
+                <header class="header clearfix">
+                    <section class="topbar clearfix">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                    <div class="social clearfix">
+                                        <ul>
+                                            <li><a id="linkFacebookHeader" runat="server" target="_blank" data-placement="bottom" data-toggle="tooltip" data-original-title="Facebook" title="" href="#"><i class="fa fa-facebook HeaderIcon2"></i></a></li>
+                                            <li><a id="linkGooglePlusHeader" runat="server" target="_blank" data-placement="bottom" data-toggle="tooltip" data-original-title="Google Plus" title="" href="#"><i class="fa fa-google-plus HeaderIcon2"></i></a></li>
+                                            <li><a id="linkTwitterHeader" runat="server" target="_blank" data-placement="bottom" data-toggle="tooltip" data-original-title="Twitter" title="" href="#"><i class="fa fa-twitter HeaderIcon2"></i></a></li>
+                                            <li><a id="linkYoutubeHeader" runat="server" target="_blank" data-placement="bottom" data-toggle="tooltip" data-original-title="Youtube" title="" href="#"><i class="fa fa-youtube HeaderIcon2"></i></a></li>
+                                        </ul>
+                                    </div>
+                                    <!-- end social -->
+                                </div>
+                                <!-- end col-lg-6 -->
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                    <div class="callus clearfix">
+                                        <ul>
+                                            <li>
+                                                <p>
+                                                    <span id="EmailText" class="HeaderText" runat="server">Email :</span>
+                                                    <span1 id="SiteEmail" runat="server">SiteEmail</span1>
+                                                </p>
+                                            </li>
+                                            <li>
+                                                <p>
+                                                    <span id="PhoneText" class="HeaderText" runat="server">Phone :</span>
+                                                    <span1 id="SitePhone" runat="server">SitePhone</span1>
+                                                </p>
+                                            </li>
+                                            <%--<li><p><span><i class="fa fa-user HeaderText"></i></span><a href=""  class="HeaderIcon" style='padding-left:3px;' id="CorporateTravelText" runat="server" >CorporateTravelText</a> </p></li>--%>
+                                        </ul>
+                                    </div>
+                                    <!-- end callus -->
+                                </div>
+                                <!-- end col-lg-6 -->
+                            </div>
+                            <!-- end row -->
+                        </div>
+                        <!-- end container -->
+                    </section>
+                    <!-- end topbar -->
+                    <div class="container">
+                        <div class="row">
+                            <div id="HeaderLeftDiv" runat="server" style="width: 30%; float: left;">
+                                <div class="logo-wrapper clearfix">
+                                    <div class="logo">
+                                        <table>
+                                            <tr>
+                                                <td style="height: 70px;"><a id="HomePageLink" runat="server" href="" title="Home">
+                                                    <img id="logoImgHeader" runat="server" style="height: 70px" src="" alt="">
+                                                </a></td>
+
+                                                <td style="height: 70px; vertical-align: bottom;">
+                                                    <img id="imgAgent" src="" visible="false" style="vertical-align: bottom; padding-left: 15px;" runat="server" /></td>
+                                            </tr>
+                                        </table>
+
+
+                                    </div>
+                                    <!-- /.site-name -->
+                                </div>
+                                <!-- /.logo-wrapper -->
+                            </div>
+                            <!-- end col-lg-3 -->
+                            <div class="target pull-right " style="margin-top: 38px; color: White; cursor: pointer;">
+                                <span>
+                                    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="31px" height="29.261px" viewBox="0 0 31 29.261" enable-background="new 0 0 31 29.261" xml:space="preserve" class="icon">
+                                        <path fill="#333333" d="M29,6.261h-6.355V1.375C22.645,0.616,22.03,0,21.27,0C21.178,0,21.088,0.01,21,0.027
+	C20.913,0.01,20.823,0,20.73,0H10.27C10.177,0,10.087,0.01,10,0.027C9.912,0.01,9.822,0,9.73,0C8.97,0,8.355,0.616,8.355,1.375
+	v4.886H2c-1.105,0-2,0.895-2,2v19c0,1.105,0.895,2,2,2h27c1.105,0,2-0.895,2-2v-19C31,7.157,30.105,6.261,29,6.261z M11.105,2.75
+	h8.791v3.511h-8.791V2.75z">
+                                        </path>
+                                    </svg>
+                                    <span id="itemsQty" class="cart-qty simpleCart_quantity"></span>
+                                </span>
+                                <span id="Cart" runat="server" style="position: absolute; padding-right: 5px; color: #FFA500;">Cart</span>
+                                <span class="simpleCart_grandTotal" style="margin-top: 39px; padding-right: 5px; color: #FFA500;"></span>
+                            </div>
+                        </div>
+                        <!-- end row -->
+                    </div>
+                    <!-- end container -->
+                    <div class="post-wrapper-top dm-shadow clearfix" style="height: 60px;">
+                        <div class="container">
+                            <div class="col-lg-12">
+                                <h2 id="PageTitleDiv" runat="server" style="padding-top: 15px">PageTitleDiv</h2>
+
+                                <ul class="breadcrumb pull-right">
+
+                                    <li><a runat="server" id="LinkHomePage">Home</a></li>
+                                    <li id="PageTitleLi" runat="server">PageTitleLi</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end post-wrapper-top -->
+
+
+                </header>
+                <!-- end header -->
+            </nav>
+            <div class="container">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+            <section class="whitewrapper bordertop clearfix text-center " id="stam" style="background: rgb(240,240,240); min-height: 300px;">
+
+                <div>
+                    <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12" style="padding-top: 50px;">
+                        <img style="padding-left: 5px;" src="img/amex_logo.png" alt="">
+                        <img style="padding-left: 5px;" src="img/visa_logo.jpg" alt="">
+                        <img style="padding-left: 5px;" src="img/paypal_logo.gif" alt="">
+                        <img style="padding-left: 5px;" src="img/mastercard_logo.gif" alt="">
+                        <img style="padding-left: 5px;" src="img/discover_logo.gif" alt="">
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12" style="padding-top: 0px;">
+                        <script type="text/javascript" language="javascript">
+                            var ANS_customer_id = "d69bd87e-4d9a-4e91-b25c-b2e95a7203ed";</script>
+
+                        <script type="text/javascript" language="javascript" src="//verify.authorize.net/anetseal/seal.js"></script>
+
+                        <a href="http://www.authorize.net/" id="A1" target="_blank"></a>
+                        <a href="http://<%= GetSourceURL() %>/Telaway-100-percent-satisfaction-guarantee.aspx">
+                            <img style="padding-left: 8px;" src="TAImages/guaranteed_logo.png" />
+                        </a>
+
+                    </div>
+                </div>
+
+            </section>
+            <footer class="footerDiv footer1 jt-shadow clearfix">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                            <div class="widget clearfix">
+                                <img id="logoImgFooter" runat="server" class="footerlogo" src="" alt=""><br>
+                                <p id="AboutText" runat="server">AboutText</p>
+                            </div>
+                            <!-- end widget -->
+                        </div>
+                        <!-- end col-lg-3 -->
+                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                            <div class="widget clearfix">
+                                <div class="title">
+                                    <h3 id="ContactInfoText" runat="server">ContactInfoText</h3>
+                                </div>
+                                <!-- end title -->
+                                <div class="contact-widget">
+                                    <ul>
+                                        <li><i class="fa fa-map-marker footerIcon"></i><span id="SiteAddressFooter" runat="server">SiteAddressFooter</span></li>
+                                        <li><i class="fa fa-envelope-o footerIcon"></i><span id="SiteEmailFooter" runat="server">SiteEmailFooter</span></li>
+                                        <li><i class="fa fa-mobile-phone footerIcon"></i><span id="PhoneTextFooter" runat="server">Phone: (000) 000 000</span> <span id="SitePhoneFooter" runat="server"></span></li>
+                                    </ul>
+                                    <ul class="social clearfix">
+                                        <li><a id="linkFacebookFooter" runat="server" target="_blank" data-placement="bottom" data-toggle="tooltip" data-original-title="Facebook" title="" href="#"><i class="fa fa-facebook footerIcon"></i></a></li>
+                                        <li><a id="linkGooglePlusFooter" runat="server" target="_blank" data-placement="bottom" data-toggle="tooltip" data-original-title="Google Plus" title="" href="#"><i class="fa fa-google-plus footerIcon"></i></a></li>
+                                        <li><a id="linkTwitterFooter" runat="server" target="_blank" data-placement="bottom" data-toggle="tooltip" data-original-title="Twitter" title="" href="#"><i class="fa fa-twitter footerIcon"></i></a></li>
+                                        <li><a id="linkYoutubeFooter" runat="server" target="_blank" data-placement="bottom" data-toggle="tooltip" data-original-title="Youtube" title="" href="#"><i class="fa fa-youtube footerIcon"></i></a></li>
+                                    </ul>
+                                    <!-- end social -->
+                                </div>
+                                <!-- contact-widget -->
+                            </div>
+                            <!-- end widget -->
+                        </div>
+                        <!-- end col-lg-3 -->
+                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                            <div class="widget clearfix">
+                                <div class="title">
+                                    <h3 id="RecentTweets" runat="server">RecentTweets</h3>
+                                </div>
+                                <!-- end title -->
+                                <div class="twitter-widget">
+                                    <ul>
+                                        <li>
+                                            <p><span id="twitts1Text" runat="server"></span><a class='twitterHref' href="https://twitter.com/TelawayUSA" title=""><span id="TweetTime1" runat="server"></span>...</a></p>
+                                        </li>
+                                        <li>
+                                            <p><span id="twitts2Text" runat="server"></span><a class='twitterHref' href="https://twitter.com/TelawayUSA" title=""><span id="TweetTime2" runat="server"></span>...</a></p>
+                                        </li>
+                                        <li>
+                                            <p><span id="twitts3Text" runat="server"></span><a class='twitterHref' href="https://twitter.com/TelawayUSA" title=""><span id="TweetTime3" runat="server"></span>...</a></p>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <!-- twitter-widget -->
+                            </div>
+                            <!-- end widget -->
+                        </div>
+                        <!-- end col-lg-3 -->
+                        <%--<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                    	<div class="widget clearfix">
+                        	<div class="title">
+                            	<h3 id="DropUsALine" runat="server"  >DropUsALine</h3>
+                            </div><!-- end title -->
+                        	<div class="footer-form">
+                            <form id="contact" action="" name="contactform" method="post">
+                            	<input type="text" name="name" id="nameInput" runat="server"   class="form-control" placeholder=""> 
+                            	<input type="text" name="email" id="emailInput"  runat="server" class="form-control" placeholder=""> 
+                            	 <textarea class="form-control" name="message"  runat="server" id="messageInput" rows="4" placeholder=""></textarea>
+                                 <div class="text-center">
+                                 <asp:Button ID="btnSendText" runat="server" Text="" CssClass="btn btn-warning"></asp:Button>
+
+                         
+                                 </div>
+							</form>                         
+                            </div><!-- end footer-form -->
+                        </div><!-- end widget -->
+                    </div><!-- end col-lg-3 -->--%>
+                    </div>
+                    <!-- end row -->
+                </div>
+                <!-- end container -->
+            </footer>
+            <!-- end footer -->
+            <section class="copyright1 clearfix">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12">
+                            <p><span id="CopyrightText" runat="server">CopyrightText</span> <a id="linkPrivacy" runat="server" target="_blank" href=""></a>| <a id="linkTerms" runat="server" href=""></a></p>
+                        </div>
+
+                    </div>
+                    <!-- end row -->
+                </div>
+                <!-- end container -->
+            </section>
+            <!-- end copyright1 -->
+        </div>
+        <div class="dmtop">
+            Scroll to Top
+        </div>
+        <!-- end dmtop -->
+        <!-- Bootstrap core and JavaScript's
+    ================================================== -->
+        <%--  <script   src="<%=ResolveClientUrl("~/")%>js/jquery-1.7.2.min.js"></script>
+    <script src="<%=ResolveClientUrl("~/")%>js/jquery-ui-1.8.21.custom.min.js" type="text/javascript"></script>--%>
+
+        <script src="<%=ResolveClientUrl("~/")%>js/jquery-1.9.1.js"></script>
+
+        <script src="<%=ResolveClientUrl("~/")%>js/Service.js" type="text/javascript"></script>
+
+        <script src="<%=ResolveClientUrl("~/")%>jsN/bootstrap.js"></script>
+
+        <script src="<%=ResolveClientUrl("~/")%>jsN/jquery.parallax.js"></script>
+
+        <script src="<%=ResolveClientUrl("~/")%>jsN/jquery.fitvids.js"></script>
+
+        <script src="<%=ResolveClientUrl("~/")%>jsN/jquery.unveilEffects.js"></script>
+
+        <script src="<%=ResolveClientUrl("~/")%>jsN/retina-1.1.0.js"></script>
+
+        <script src="<%=ResolveClientUrl("~/")%>jsN/fhmm.js"></script>
+
+        <script src="<%=ResolveClientUrl("~/")%>jsN/jquery.prettyPhoto.js"></script>
+
+        <script src="<%=ResolveClientUrl("~/")%>jsN/application.js"></script>
+
+        <script src="<%=ResolveClientUrl("~/")%>js/modernizr.custom.js"></script>
+
+        <script src="<%=ResolveClientUrl("~/")%>js/toucheffects.js"></script>
+
+        <!-- SLIDER REVOLUTION 4.x SCRIPTS  -->
+
+        <script type="text/javascript" src="<%=ResolveClientUrl("~/")%>rs-plugin/js/jquery.themepunch.plugins.min.js"></script>
+
+        <script type="text/javascript" src="<%=ResolveClientUrl("~/")%>rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+
+        <script src="<%=ResolveClientUrl("~/")%>jsN/jquery.isotope.min.js"></script>
+
+        <script src="<%=ResolveClientUrl("~/")%>jsN/owl.carousel.js"></script>
+
+    </form>
+</body>
+</html>
